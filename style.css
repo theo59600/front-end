@@ -1,0 +1,91 @@
+body { 
+    background: url('/images/body.png');
+    margin: 20px 30px; 
+    font-family: sans-serif; 
+ }
+ #entete {
+     background: url('/images/entete.png'); 
+     border: 1px solid black; 
+     border-bottom: none; 
+ }
+     h1 {
+         height: 58px; 
+         line-height: 58px; 
+         border-bottom: 1px solid black; 
+         margin: 0; 
+         text-align: center; 
+         background: url('/images/bouton-droite.png'); 
+         text-indent: -32000px; 
+     }
+     .bouton {
+         background: url('/images/bouton-gauche.png');
+         float: left; 
+         margin: 7px, 
+     }
+
+     .bouton div {
+         background: url('/images/bouton-2-droite.png') 100% 0 no-repeat; 
+         height: 30px; 
+         line-height: 30px; 
+         padding: 0 10px; 
+         color: whithe; 
+     }
+     .boite {
+         background: #f0f0f0 url('/images/cadre-haut-gauche.png');
+         margin: 7px;
+     }
+     .boite div {
+         background: url('/images/cadre-bas.png')0 100% no-repeat;
+     }
+     .boite div div {
+         background: url('/images/cadre-droite.png') 100% 0 no-repeat;
+     }
+     .boite div div div {
+         background: url('/images/cadre-bas-droite.png') 100% 100% no-repeat;
+         padding: 13 px 16 px 16 px 13px;
+     }
+     .boite div div div div {
+         background: none;
+         padding: 0;
+     }
+     a {
+         background: blue url(''); 
+        }
+     a:hover {
+         background: yellow url('') 
+     }
+
+     .bouton {
+         background: url('/images/bouton-2-gauche.png');
+         float: left;     
+         margin: 7px;   
+         display: block;
+         text-decoration: none; 
+         cursor: pointer; 
+     }  
+
+     .bouton span {
+         background: url('/images/bouton-2-droite.png') 100% 0 no-repeat;   
+         height: 30px;  
+         line-height: 30px; 
+         padding: 0 10px; 
+         color: white; 
+         display: block;
+     }
+     .bouton:hover,
+     .bouton:focus,
+     .bouton:active {
+         background-color: yellow;
+         background-position: 0 -30px;
+     }
+
+     .bouton:hover span,
+     .bouton:focus span,
+     .bouton:active span {
+         background-position: 100% -30px;
+         color: black;
+     }
+
+
+
+
